@@ -1,0 +1,72 @@
+@import 'bulma';
+@import '~bulma-slider';
+
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 20vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 30vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+.drum-body> div > button{
+  width:80px;
+  height: 80px;
+  margin:5px;
+  background:tomato !important;
+  color: #fff !important;
+}
+.drum-machine{
+  width:80%;
+  margin:5vh !important;
+  padding: 5vh !important;
+  border-left: 2px dashed tomato;
+  border-right: 2px dashed tomato;
+  display: flex !important;
+    flex-wrap: wrap !important;
+    align-items: center !important;
+    justify-content: center !important;
+    flex-direction: row !important;
+    max-height: 100vh !important;
+}
+.drum-body{
+  margin:10px;
+  padding: 10px;
+
+}
+.drum-display{
+  display: flex;
+  min-height: 290px;
+  margin:10px;
+  padding: 10px;
+  flex-direction: column !important;
+  justify-content: center !important; 
+}
+.drum-body> *{
+  margin:5px !important;
+}
+.display{
+  width: 250px;
+  height: 50px;
+  margin: 10px;
+  padding: 10px;
+  background-color: grey;
+
+  text-align: center;
+  color: white;
+}
